@@ -2,7 +2,8 @@
   "name": "a1qa-wdio-framework",
   "type": "module",
   "scripts": {
-    "chrome.mocha": "wdio run ./configs/chrome.mocha.conf.js"
+    "chrome.mocha": "wdio run ./configs/chrome.mocha.conf.js",
+    "admin:login": "wdio run ./configs/chrome.mocha.conf.js --spec ./test/specs/admin/adminLogin.spec.js"
   },
   "dependencies": {
     "@babel/core": "^7.24.3",
