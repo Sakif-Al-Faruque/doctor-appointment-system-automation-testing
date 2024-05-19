@@ -4,6 +4,21 @@ const ADMIN_LOGIN = {
     VALID: {
         ADMIN_ID: "admin",
         ADMIN_PASSWORD: "admin"
+    },
+    INVALID_01: {
+        ADMIN_ID: "a",
+        ADMIN_PASSWORD: "admin",
+        ERROR: "The ID/Password not correct"
+    },
+    INVALID_02: {
+        ADMIN_ID: "##",
+        ADMIN_PASSWORD: "admin",
+        ERROR: "The ID/Password not correct"
+    },
+    INVALID_03: {
+        ADMIN_ID: "1",
+        ADMIN_PASSWORD: "admin",
+        ERROR: "The ID/Password not correct"
     }
 }
 

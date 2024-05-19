@@ -9,6 +9,7 @@ class AdminLoginPage extends BasePage{
         this.adminIdInputField = new Input(`[name="adminID"]`);
         this.adminPasswordInputField = new Input(`[name="adminpassword"]`);
         this.adminLoginButton = new Button(`[name="Login3"]`);
+        this.adminLoginError = new Label(`[class="error"] p`);
     }
 
     async setLoginInformation(adminId, adminPassword){
@@ -18,6 +19,10 @@ class AdminLoginPage extends BasePage{
 
     async clickOnLoginButton(){
         await this.adminLoginButton.click();
+    }
+
+    async getErrorText(){
+        return await this.adminLoginError.getText();
     }
 }
 
