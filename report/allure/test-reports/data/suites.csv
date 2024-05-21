@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue May 21 12:49:45 BDT 2024","Tue May 21 12:49:45 BDT 2024","270","","validate admin login","","","","validate admin cannot login with invalid password",""
+"passed","Tue May 21 12:49:37 BDT 2024","Tue May 21 12:49:44 BDT 2024","7259","","validate admin login","","","","validate admin can login with valid credentials",""
+"passed","Tue May 21 12:49:44 BDT 2024","Tue May 21 12:49:45 BDT 2024","299","","validate admin login","","","","validate admin cannot login with chars in UserID field",""
+"passed","Tue May 21 12:49:45 BDT 2024","Tue May 21 12:49:45 BDT 2024","283","","validate admin login","","","","validate admin cannot login with special chars in UserID field",""
